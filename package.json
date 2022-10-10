@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "pug": "^3.0.2"
+  },
+  "name": "dancewebsite",
+  "version": "1.0.0",
+  "description": "This is a Dance Website for a popular Dance Academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Indorkar",
+  "license": "ISC"
+}

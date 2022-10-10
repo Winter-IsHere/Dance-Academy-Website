@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 83vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 300%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background:#d43b3b;
+    cursor: pointer;
+}

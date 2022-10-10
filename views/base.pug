@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html 
+html
+  head
+    title Winter Dance Academy
+    block style
+    block scripts
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | WDA
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+    block content
+    
+    block foot
+        footer#footer
+            | Copyright © 2022 WinterAcademy.com | All Rights Reserved
